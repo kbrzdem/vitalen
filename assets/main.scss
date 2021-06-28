@@ -93,7 +93,7 @@
       align-items: center;
       display: flex;
       flex-direction: row;
-      justify-content: center;
+
       margin-top: 15px;
       .input-group {
         border: solid 1px #e6e6e6;
@@ -252,10 +252,11 @@
         margin-bottom: 10px;
       }
       .pr-detail-comment-desc {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
-        color: #333;
+        color: #666;
         margin-bottom: 10px;
+        margin: 0;
       }
     }
   }
@@ -288,5 +289,11 @@
   .pr-detail-container {
     max-width: 720px;
     margin: 0 auto;
+  }
+  .quenty-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
