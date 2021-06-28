@@ -1,0 +1,281 @@
+.main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  figure {
+    margin: 0;
+    &:focus img {
+      border: 2px solid blue;
+    }
+  }
+
+  .pr-container {
+    //align-items: center;
+    border: solid 1px #e6e6e6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    width: 956px;
+  }
+  .pr-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 0;
+  }
+  /*.pr-detailcarousel {
+    border: solid 1px #e6e6e6;
+  }*/
+  .pr-detailthumbnail-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10px;
+    figure {
+      img {
+        border: solid 1px #e6e6e6;
+        border-radius: 5px;
+      }
+      padding: 5px;
+      margin: 15px;
+    }
+  }
+
+  .pr-information {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0px;
+    padding-left: 15px;
+    border-left: solid 1px #e6e6e6;
+    .title-wrapper {
+      .brand-name {
+        margin: 0;
+        color: #333;
+        letter-spacing: 0.5px;
+        font-size: 22px;
+        line-height: 26px;
+      }
+    }
+    .pr-name {
+      color: #333;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    .pr-brand-detail {
+      display: flex;
+      flex-direction: column;
+      color: #333;
+      font-size: 12px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .pr-price {
+      color: #d6a923;
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: 600;
+    }
+    .quenty-wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 15px;
+      .input-group {
+        border: solid 1px #e6e6e6;
+        border-radius: 5px;
+        padding: 1px;
+        background-color: rgba(207, 207, 207, 0.479);
+        .btn {
+          border: none;
+          border-radius: 5px;
+          padding: 8px;
+          background-color: rgba(207, 207, 207, 0.445);
+
+          &:hover {
+            cursor: pointer;
+            background-color: rgb(221, 221, 221);
+          }
+        }
+        .input {
+          max-width: 18px;
+          border: none;
+          border-radius: 5px;
+          outline: none;
+          padding: 8px;
+        }
+      }
+      .add-to-card-button {
+        .pr-in-btn {
+          background-color: #e0ad14;
+          border: none;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 15px;
+          font-weight: 600;
+          padding: 10px 28px;
+          line-height: 1.1;
+          outline: none;
+
+          &:hover {
+            cursor: pointer;
+            background-color: #d4a517;
+          }
+        }
+      }
+    }
+  }
+  .pr-detail-container {
+    width: 956px;
+    border: solid 1px #e6e6e6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
+    .item-link {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+      padding: 10px;
+      margin-left: 10px;
+    }
+    .active {
+      background-color: #e6e6e6bb;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    .pr-detail-mr {
+      margin-left: 18px;
+      margin-right: 18px;
+      display: flex;
+      flex-direction: column;
+    }
+    .pr-detail-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .pr-detail-name {
+      font-size: 24px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 10px;
+      margin-top: 30px;
+    }
+    .pr-detail-comment {
+      font-size: 16px;
+      color: rgba(51, 51, 51, 0.918);
+      font-weight: 500;
+      padding-bottom: 20px;
+    }
+    .pr-detail-desc {
+      font-size: 16px;
+      color: #666;
+      line-height: 1;
+      margin-bottom: 10px;
+      padding-top: 20px;
+      margin: 0;
+    }
+    .pr-detail-list {
+      font-size: 16px;
+      color: #666;
+      line-height: 1;
+      margin-bottom: 10px;
+      ul li {
+        list-style-type: circle;
+        margin-bottom: 10px;
+      }
+    }
+    .pr-detail-list-eco {
+      ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+      }
+      ul li {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        border-radius: 5px;
+        border: solid 1px #e6e6e6;
+        margin: 5px;
+        padding: 10px;
+        box-shadow: 3px 3px 4px #e6e6e6;
+      }
+      .pr-detail-list-ecodesc {
+        font-size: 20px;
+        color: #333;
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+      .pr-detail-list-ecodesctwo {
+        font-size: 14px;
+        color: rgba(102, 102, 102, 0.849);
+        font-weight: 500;
+      }
+      .pr-detail-list-ecocomment {
+        font-size: 18px;
+        color: #666;
+        font-weight: 500;
+      }
+    }
+    .pr-detail-features {
+      .pr-detail-comment-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #333;
+
+        margin-bottom: 10px;
+        //margin-top: 30px;
+      }
+      ul {
+        padding-left: 0;
+      }
+      ul li {
+        font-size: 16px;
+        font-weight: 500;
+        color: #333;
+        list-style-type: none;
+        margin-bottom: 10px;
+      }
+      .pr-detail-comment-desc {
+        font-size: 18px;
+        font-weight: 300;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+.pr-detail-note {
+  font-size: 14px;
+  color: #333;
+}
+@media screen and (min-width: 1200px) {
+  .main {
+    max-width: 960px;
+    margin: 0 auto;
+    .pr-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .pr-detailthumbnail-carousel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .pr-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .pr-detail-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}

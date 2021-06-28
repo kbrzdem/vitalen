@@ -1,0 +1,381 @@
+.main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*.pr-detailcarousel {
+    border: solid 1px #e6e6e6;
+  }*/
+}
+
+.main figure {
+  margin: 0;
+}
+
+.main figure:focus img {
+  border: 2px solid blue;
+}
+
+.main .pr-container {
+  border: solid 1px #e6e6e6;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 956px;
+}
+
+.main .pr-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 10px 10px 0;
+}
+
+.main .pr-detailthumbnail-carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.main .pr-detailthumbnail-carousel figure {
+  padding: 5px;
+  margin: 15px;
+}
+
+.main .pr-detailthumbnail-carousel figure img {
+  border: solid 1px #e6e6e6;
+  border-radius: 5px;
+}
+
+.main .pr-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px 0 15px 0px;
+  padding-left: 15px;
+  border-left: solid 1px #e6e6e6;
+}
+
+.main .pr-information .title-wrapper .brand-name {
+  margin: 0;
+  color: #333;
+  letter-spacing: 0.5px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.main .pr-information .pr-name {
+  color: #333;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.main .pr-information .pr-brand-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #333;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main .pr-information .pr-price {
+  color: #d6a923;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.main .pr-information .quenty-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.main .pr-information .quenty-wrapper .input-group {
+  border: solid 1px #e6e6e6;
+  border-radius: 5px;
+  padding: 1px;
+  background-color: rgba(207, 207, 207, 0.479);
+}
+
+.main .pr-information .quenty-wrapper .input-group .btn {
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: rgba(207, 207, 207, 0.445);
+}
+
+.main .pr-information .quenty-wrapper .input-group .btn:hover {
+  cursor: pointer;
+  background-color: #dddddd;
+}
+
+.main .pr-information .quenty-wrapper .input-group .input {
+  max-width: 18px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 8px;
+}
+
+.main .pr-information .quenty-wrapper .add-to-card-button .pr-in-btn {
+  background-color: #e0ad14;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 28px;
+  line-height: 1.1;
+  outline: none;
+}
+
+.main .pr-information .quenty-wrapper .add-to-card-button .pr-in-btn:hover {
+  cursor: pointer;
+  background-color: #d4a517;
+}
+
+.main .pr-detail-container {
+  width: 956px;
+  border: solid 1px #e6e6e6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.main .pr-detail-container .item-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.main .pr-detail-container .active {
+  background-color: #e6e6e6bb;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.main .pr-detail-container .pr-detail-mr {
+  margin-left: 18px;
+  margin-right: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .pr-detail-container .pr-detail-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .pr-detail-container .pr-detail-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.main .pr-detail-container .pr-detail-comment {
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.918);
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.main .pr-detail-container .pr-detail-desc {
+  font-size: 16px;
+  color: #666;
+  line-height: 1;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.main .pr-detail-container .pr-detail-list {
+  font-size: 16px;
+  color: #666;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.main .pr-detail-container .pr-detail-list ul li {
+  list-style-type: circle;
+  margin-bottom: 10px;
+}
+
+.main .pr-detail-container .pr-detail-list-eco ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+}
+
+.main .pr-detail-container .pr-detail-list-eco ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+  border-radius: 5px;
+  border: solid 1px #e6e6e6;
+  margin: 5px;
+  padding: 10px;
+  -webkit-box-shadow: 3px 3px 4px #e6e6e6;
+          box-shadow: 3px 3px 4px #e6e6e6;
+}
+
+.main .pr-detail-container .pr-detail-list-eco .pr-detail-list-ecodesc {
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.main .pr-detail-container .pr-detail-list-eco .pr-detail-list-ecodesctwo {
+  font-size: 14px;
+  color: rgba(102, 102, 102, 0.849);
+  font-weight: 500;
+}
+
+.main .pr-detail-container .pr-detail-list-eco .pr-detail-list-ecocomment {
+  font-size: 18px;
+  color: #666;
+  font-weight: 500;
+}
+
+.main .pr-detail-container .pr-detail-features .pr-detail-comment-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.main .pr-detail-container .pr-detail-features ul {
+  padding-left: 0;
+}
+
+.main .pr-detail-container .pr-detail-features ul li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.main .pr-detail-container .pr-detail-features .pr-detail-comment-desc {
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pr-detail-note {
+  font-size: 14px;
+  color: #333;
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .main .pr-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .pr-container .pr-detailthumbnail-carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pr-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .pr-detail-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
