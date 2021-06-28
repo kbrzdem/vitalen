@@ -7,7 +7,18 @@
       border: 2px solid blue;
     }
   }
-
+  .star-w {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 10px 0;
+    .star {
+      background: url(https://cdn.dsmcdn.com/web/production/rating-and-review-small-star-orange.svg)
+        no-repeat center;
+      width: 14px;
+      height: 14px;
+      margin: 2px;
+    }
+  }
   .pr-container {
     //align-items: center;
     border: solid 1px #e6e6e6;
@@ -55,7 +66,7 @@
         margin: 0;
         color: #333;
         letter-spacing: 0.5px;
-        font-size: 22px;
+        font-size: 24px;
         line-height: 26px;
       }
     }

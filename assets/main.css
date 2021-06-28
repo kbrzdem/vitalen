@@ -14,6 +14,24 @@
   border: 2px solid blue;
 }
 
+.main .star-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 0 10px 0;
+}
+
+.main .star-w .star {
+  background: url(https://cdn.dsmcdn.com/web/production/rating-and-review-small-star-orange.svg) no-repeat center;
+  width: 14px;
+  height: 14px;
+  margin: 2px;
+}
+
 .main .pr-container {
   border: solid 1px #e6e6e6;
   border-radius: 5px;
@@ -87,7 +105,7 @@
   margin: 0;
   color: #333;
   letter-spacing: 0.5px;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 26px;
 }
 
